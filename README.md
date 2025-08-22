@@ -1,1 +1,1 @@
-# FrancisBalualua-ONEUI5_TRAINING_REPO
+This repository is for SAPUI5 Activities by john.f.balualua
