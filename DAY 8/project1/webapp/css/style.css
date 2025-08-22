@@ -1,0 +1,24 @@
+/* Enter your custom styles here */
+.customHeader{
+    background-color: #0088ff !important;
+    border-bottom: 2px solid #174873;
+}
+.customFooter{
+    background-color: #ff5500 !important;
+    border-top: 2px solid #174873;
+}
+.myTitle {
+    color: white !important;
+}
+
+/* for the dialog box */
+.myCustomHeader .sapMBar{
+    background-color: #0088ff !important;
+}
+.myCustomHeader .sapMDialogTitle {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+.myCustomHeader.sapMDialog .sapUiIcon {
+    color: #000dff !important;
+}

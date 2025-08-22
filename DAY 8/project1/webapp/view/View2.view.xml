@@ -1,0 +1,40 @@
+<mvc:View
+    controllerName="com.ui5.trng.project1.controller.View2"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+>
+    <Page
+        id="page1"
+        title="{i18n>title1}"
+        class="myBackgroundPage"
+    >
+        <customHeader>
+            <Bar class="customHeader" id="bar2">
+                <contentLeft>
+                    <Title id="title3" class="myTitle" text="{i18n>title1}" />
+                </contentLeft>
+            </Bar>
+        </customHeader>
+        <footer>
+            <Bar id="bar3" class="customFooter">
+                <contentLeft>
+                    <Button
+                        id="btn3"
+                        icon="sap-icon://message-popup"
+                        text="Message"
+                        press="onButton1Press"
+                        type="Accept"
+                    />
+                </contentLeft>
+                <contentRight>
+                    <Button
+                        id="btn4"
+                        text="Back"
+                        press="onNavBack"
+                        type="Attention"
+                    />
+                </contentRight>
+            </Bar>
+        </footer>
+    </Page>
+</mvc:View>
